@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Votre Projet</title>
+</head>
+<body onload="displayRandomProduct()">
+
+
+  <!-- Petit texte pour présenter le produit -->
+  <p><h1>Le produit que nous vous présentons combine efficacité énergétique et design innovant pour vous offrir la meilleure expérience de chauffage.</h1></p>
+  
+  <!-- Affichage 3D à partir de Sketchfab -->
+  <div>
+     
+  <div class="container">
+    <!-- Section pour les informations du produit -->
+    <div id="product-info"></div>
+    
+    <iframe src="https://sketchfab.com/models/bb76ecfdd64e4131a391609feec0d745/embed"></iframe> 
+  <script>
+    const products = [
+      {
+        "name": "Optipack EGE",
+        "lambda": 0.035,
+        "info1": "Valeur1",
+        "info2": "Valeur2",
+        "info3": "Valeur3",
+        "info4": "Valeur4",
+        "info5": "Valeur5",
+      },
+  // Exemple de valeur
+    ];
+
+    function displayRandomProduct() {
+      const randomIndex = Math.floor(Math.random() * products.length);
+      const randomProduct = products[randomIndex];
+      const productInfoDiv = document.getElementById('product-info');
+
+      productInfoDiv.innerHTML = `
+        <h2>${randomProduct.name}</h2>
+        <p>Lambda (W/mK): ${randomProduct.lambda}</p>
+        <p>Information 1: ${randomProduct.info1}</p>
+        <p>Information 2: ${randomProduct.info2}</p>
+        <p>Information 3: ${randomProduct.info3}</p>
+        <p>Information 4: ${randomProduct.info4}</p>
+        <p>Information 5: ${randomProduct.info5}</p>
+      `;
+    }
+  </script>
+
+</body>
+</html>

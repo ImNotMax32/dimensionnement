@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Méthode de chauffage - Outil de Dimensionnement Nextherm</title>
+    <li><a href="deperditions.html">Aller à la section Déperditions thermiques</a></li>
+</head>
+<body>
+    <link rel="stylesheet" href="styles_entête.css">
+
+    <h1>Questionnaire sur la Méthode de chauffage</h1>
+    <form id="methode-form">
+        <h2>Système de chauffage :</h2>
+        
+        <!-- Type de pompe à chaleur -->
+        <label for="type_pac">Type de pompe à chaleur :</label>
+        <select id="type_pac" name="type_pac" onchange="updateSystemOptions()">
+            <option value="Geothermie">Géothermie</option>
+            <option value="Aerothermie">Aérothermie</option>
+        </select><br><br>
+
+        <!-- Système de PAC -->
+        <label for="systeme_pac">Système de PAC :</label>
+        <select id="systeme_pac" name="systeme_pac">
+        </select><br><br>
+
+        <!-- Type de fluide -->
+        <label for="type_fluide">Type de fluide :</label>
+        <select id="type_fluide" name="type_fluide">
+            <option value="R32">R32</option>
+            <option value="R410A">R410A</option>
+        </select><br><br>
+
+        <!-- Ballon tampon -->
+        <label for="ballon_tampon">Ballon tampon :</label>
+        <select id="ballon_tampon" name="ballon_tampon">
+            <option value="Oui">Oui</option>
+            <option value="Non">Non</option>
+        </select><br><br>
+
+        <h2 id="accessoires_title">Accessoires</h2>
+
+        <div id="geothermie_options">
+            <!-- Options pour la géothermie -->
+            <label for="type_capteur">Type de capteur :</label>
+            <select id="type_capteur" name="type_capteur">
+                <option value="Horizontal">Horizontal</option>
+                <option value="Vertical">Vertical</option>
+            </select><br><br>
+
+            <label for="eau_de_nappe">Eau de nappe :</label>
+            <select id="eau_de_nappe" name="eau_de_nappe">
+                <option value="Oui">Oui</option>
+                <option value="Non">Non</option>
+            </select><br><br>
+
+            <label for="remplissage_capteur">Remplissage capteur :</label>
+            <select id="remplissage_capteur" name="remplissage_capteur">
+                <option value="Charge">Chargé</option>
+                <option value="Non_charge">Non chargé</option>
+            </select><br><br>
+        </div>
+
+        <div id="aerothermie_options">
+            <!-- Options pour l'aérothermie -->
+            <label for="accessoire_aerothermie">Accessoire Aérothermie :</label>
+            <select id="accessoire_aerothermie" name="accessoire_aerothermie">
+                <option value="Support muraux">Support muraux</option>
+                <option value="Support sol">Support sol</option>
+                <option value="Sans support">Sans support</option>
+            </select><br><br>
+        </div>
+
+        <h2>Options :</h2>
+
+        <label for="kit_freecooling">Kit Freecooling :</label>
+        <select id="kit_freecooling" name="kit_freecooling">
+            <option value="Oui">Oui</option>
+            <option value="Non">Non</option>
+        </select><br><br>
+
+        <label for="kit_piscine">Kit Piscine :</label>
+        <select id="kit_piscine" name="kit_piscine">
+            <option value="Oui">Oui</option>
+            <option value="Non">Non</option>
+        </select><br><br>
+
+    </form>
+    <li><a href="résumé.html">Aller à la section Résumé</a></li>
+    <script src="calculs.js"></script>
+  </body>
+</html>

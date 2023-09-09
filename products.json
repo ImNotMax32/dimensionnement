@@ -1,0 +1,147 @@
+[
+    {
+      "Nom": "Optipack EGE",
+      "Particularites": ["Geothermie", "EGE", "R410A"],
+      "Puissance": {"min": 2.268, "max": 9.655},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 5.275, "Puissance_max": 15.438}
+    },
+    {
+      "Nom": "Optipack 2 EGE",
+      "Particularites": ["Geothermie", "EGE", "R32"],
+      "Puissance": {"min": 2.61, "max": 10.5},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 3.132, "Puissance_max": 12.9}
+    },
+    {
+      "Nom": "Otipack SE",
+      "Particularites": ["Geothermie", "SE", "R410A"],
+      "Puissance": {"min": 2.359, "max": 10.35},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Optipack 2 SE",
+      "Particularites": ["Geothermie", "SE", "R32"],
+      "Puissance": {"min": 2.7, "max": 10.5},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Smartpack3 EGE",
+      "Particularites": ["Geothermie", "EGE", "R32"],
+      "Puissance": {"min": 2.61, "max": 17.3},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 3.132, "Puissance_max": 21.4}
+    },
+    {
+      "Nom": "Smartpack2 EGE",
+      "Particularites": ["Geothermie", "EGE", "R410A"],
+      "Puissance": {"min": 5.64, "max": 20.2},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 7.05, "Puissance_max": 25.25}
+    },
+    {
+      "Nom": "Smartpack3 SE",
+      "Particularites": ["Geothermie", "SE", "R32"],
+      "Puissance": {"min": 4.826, "max": 17.45},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Smartpack2 SE",
+      "Particularites": ["Geothermie", "SE", "R410A"],
+      "Puissance": {"min": 6.04, "max": 17.55},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Smartpack3 SS",
+      "Particularites": ["Geothermie", "SS", "R32"],
+      "Puissance": {"min": 2.45, "max": 15.69},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Smartpack2 SS",
+      "Particularites": ["Geothermie", "SS", "R410A"],
+      "Puissance": {"min": 2.43, "max": 13.3},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Smartpack3 EGS",
+      "Particularites": ["Geothermie", "EGS", "R32"],
+      "Puissance": {"min": 2.45, "max": 15.69},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 2.94, "Puissance_max": 18.828}
+    },
+    {
+      "Nom": "Smartpack2 EGS",
+      "Particularites": ["Geothermie", "EGS", "R410A"],
+      "Puissance": {"min": 2.43, "max": 13.3},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 3.46, "Puissance_max": 14.94}
+    },
+    {
+      "Nom": "Optipackduo2 EGE",
+      "Particularites": ["Geothermie", "EGE", "R32"],
+      "Puissance": {"min": 2.61, "max": 10.5},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 3.132, "Puissance_max": 12.9}
+    },
+    {
+      "Nom": "Optipackduo EGE",
+      "Particularites": ["Geothermie", "EGE", "R410A"],
+      "Puissance": {"min": 2.268, "max": 9.665},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 2.906, "Puissance_max": 12.069}
+    },
+    {
+      "Nom": "Optipackduo2 SE",
+      "Particularites": ["Geothermie", "SE", "R32"],
+      "Puissance": {"min": 2.7, "max": 10.58},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Optipackduo SE",
+      "Particularites": ["Geothermie", "SE", "R410A"],
+      "Puissance": {"min": 2.359, "max": 10.35},
+      "Freecooling": true,
+      "Kit_Piscine": true,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Optipackduo2 SS",
+      "Particularites": ["Geothermie", "SS", "R32"],
+      "Puissance": {"min": 2.45, "max": 15.69},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    },
+    {
+      "Nom": "Optipackduo SS",
+      "Particularites": ["Geothermie", "SS", "R410A"],
+      "Puissance": {"min": 2.43, "max": 13.3},
+      "Freecooling": true,
+      "Kit_Piscine": false,
+      "Eau_de_nappe": {"Puissance_min": 0, "Puissance_max": 0}
+    }
+  ]
+  

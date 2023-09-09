@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Formulaire de Déperditions</title>
+</head>
+<body>
+  <img src="Image/logo.png" alt="Logo" class="logo2">
+  <div id="underline2"></div>
+    <form id="deperditions-form">
+
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div class="container" id="section1">
+<label for="possedeDeperditions">Possédez-vous déjà les déperditions de votre bâtiment ?</label>
+<select id="possedeDeperditions" name="possedeDeperditions">
+    <option value="Non"selected>Non</option>
+    <option value="Oui">Oui</option>
+</select>
+</div>
+</div>
+
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="horizontal-container">
+  <div class="container" id="section2">
+
+  <!-- Question 1 : Caractéristique du bâtiment -->
+  <h2>1) Caractéristique du bâtiment :</h2>
+  <label for="Annee_de_construction">Année de construction :</label>
+  <select id="Annee_de_construction" name="Annee_de_construction">
+      <option value="Avant 1974">Avant 1974</option>
+      <option value="De 1974 à 1980">De 1974 à 1980</option>
+      <option value="De 1981 à 1988">De 1981 à 1988</option>
+      <option value="De 1989 à 1999">De 1989 à 1999</option>
+      <option value="De 2000 à 2004">De 2000 à 2004</option>
+      <option value="De 2005 à 2012">De 2005 à 2012</option>
+      <option value="De 2013 à 2017"selected>De 2013 à 2017</option>
+  </select><br><br>
+
+  <label for="Type_de_construction">Type de construction :</label>
+  <select id="Type_de_construction" name="Type_de_construction">
+      <option value="Rdc">Rdc</option>
+      <option value="1 Étage">1 Étage</option>
+      <option value="2 Étages">2 Étages</option>
+      
+  </select>
+  <div id="imageContainer"></div>
+  <br><br>
+  <div id="etageDetails">
+    <div id="rdcDetails">
+      <input type="number" id="Surface_RDC" name="Surface_RDC" placeholder="RDC : Entrez la surface en m²">
+      <input type="number" id="HSP_RDC" name="HSP_RDC" placeholder="RDC : Entrez la hauteur sous plafond en m">
+    </div>
+    
+    <div id="etage1Details">
+      <input type="number" id="Surface_1er_etage" name="Surface_1er_etage" placeholder="1er étage : Entrez la surface en m²">
+      <input type="number" id="HSP_1er_etage" name="HSP_1er_etage" placeholder="1er étage : Entrez la hauteur sous plafond en m">
+    </div>
+    
+    <div id="etage2Details">
+      <input type="number" id="Surface_2e_etage" name="Surface_2e_etage" placeholder="2e étage : Entrez la surface en m²">
+      <input type="number" id="HSP_2e_etage" name="HSP_2e_etage" placeholder="2e étage : Entrez la hauteur sous plafond en m">
+    </div>
+    
+    
+  <label for="Structure_de_la_construction">Structure de la construction :</label>
+  <select id="Structure_de_la_construction" name="Structure_de_la_construction">
+      <option value="Carré">Carré</option>
+      <option value="Rectangulaire">Rectangulaire</option>
+      <option value="Maison en L">Maison en L</option>
+      <option value="Maison en U">Maison en U</option>
+  </select><br><br>
+
+  <div class="imageDisplayContainer">
+    <div id="imageContainer"></div>
+    <div id="structureImageContainer"></div>
+  </div>  
+  <label for="Structure_du_sol">Structure du sol :</label>
+  <select id="Structure_du_sol" name="Structure_du_sol">
+      <option value="Une cave enterrée">Une cave enterrée</option>
+      <option value="Une cave semi-enterrée">Une cave semi-enterrée</option>
+      <option value="Un vide sanitaire">Un vide sanitaire</option>
+      <option value="Terre plein">Terre plein</option>
+  </select><br><br>
+  
+  <div id="imageContainer"></div>
+
+  </div>
+  </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+
+<div class="container" id="section3">
+  <!-- Question 2 : Façade du bâtiment -->
+  <h2>2) Façade bâtiment :</h2>
+  <label for="Surface_de_vitrage">Surface de vitrage :</label>
+  <select id="Surface_de_vitrage" name="Surface_de_vitrage">
+    <option value="10">Faible (10%)</option>
+    <option value="15">Normal (15%)</option>
+    <option value="20">Élevée (20%)</option>
+    <option value="25">Très élevée (25%)</option>
+</select>
+<br><br>
+
+  <label for="Mitoyennete">Mitoyenneté :</label>
+  <select id="Mitoyennete" name="Mitoyennete">
+      <option value="Non">Non</option>
+      <option value="1 côté">1 côté</option>
+      <option value="2 côtés">2 côtés</option>
+  </select><br><br>
+
+  <label for="Vitrage">Vitrage :</label>
+  <select id="Vitrage" name="Vitrage">
+      <option value="SV Métal">SV Métal</option>
+      <option value="SV Bois/PVC">SV Bois/PVC</option>
+      <option value="DV Métal">DV Métal</option>
+      <option value="DV Bois/PVC">DV Bois/PVC</option>
+      <option value="DV Argon">DV Argon</option>
+      <option value="DV VIR">DV VIR</option>
+      <option value="DV RT2012">DV RT2012</option>
+  </select><br><br>
+
+  <label for="Orientation_principale">Orientation principale :</label>
+  <select id="Orientation_principale" name="Orientation_principale">
+      <option value="Nord">Nord</option>
+      <option value="Sud">Sud</option>
+      <option value="Ouest">Ouest</option>
+      <option value="Est">Est</option>
+  </select><br><br>
+</div>
+  
+  <!------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="container" id="section4">
+  <!-- Question 3 : Autre -->
+  <h2>3) Autre :</h2>
+  <label for="Ventilation">Ventilation :</label>
+  <select id="Ventilation" name="Ventilation">
+      <option value="Ventilation naturelle">Ventilation naturelle</option>
+      <option value="VMC simple flux">VMC simple flux</option>
+      <option value="VMC hygro">VMC hygro</option>
+      <option value="Double flux">Double flux</option>
+  </select><br><br>
+
+  <label for="Temperature_de_chauffage">Température de chauffage :</label>
+  <select id="Temperature_de_chauffage" name="Temperature_de_chauffage">
+      <option value="18 °C">18 °C</option>
+      <option value="19 °C">19 °C</option>
+      <option value="20 °C">20 °C</option>
+      <option value="21 °C">21 °C</option>
+      <option value="22 °C">22 °C</option>
+  </select><br><br>
+
+  <label for="Departement"></label>
+  <input type="number" id="Departement" name="Departement" placeholder="Numéro de votre Département">
+</div>
+  </div>
+    
+
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="container" id="section5">
+  <div class="imageDisplayContainer">
+    <div id="imageContainer">
+      <img id="imageToChange" src="Image/rdc.jpg" alt="Image" />
+    </div>
+    <div id="structureImageContainer">
+      <img id="structureBuildingImage" src="Image/Carré.jpg" alt="Image de la structure" />
+    </div>
+    <div id="SolImageContainer">
+      <img id="structureSolImage" src="Image/Sous_sol.png" alt="Image de la structure du sol" />
+    </div>
+    
+  </div>
+  <label for="ResultatDeperdition">Résultat de déperdition :</label>
+  <input type="text" id="ResultatDeperdition" readonly>
+</div>
+
+<a href="methode.html" id="nextPageArrow"></a>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------>
+
+<script src="calculs.js"></script>  
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  const typeDeConstructionSelect = document.getElementById("Type_de_construction");
+  const imageToChange = document.getElementById("imageToChange");
+  const structureSelect = document.getElementById("Structure_de_la_construction");
+  const structureBuildingImage = document.getElementById("structureBuildingImage");
+  const structureSolSelect = document.getElementById("Structure_du_sol");
+  const structureSolImage = document.createElement("img");
+
+  document.getElementById("SolImageContainer").appendChild(structureSolImage);
+
+  typeDeConstructionSelect.addEventListener("change", function() {
+    const selectedValue = typeDeConstructionSelect.value;
+
+    if (selectedValue === "Rdc") {
+      imageToChange.src = "Image/rdc.jpg";
+    } else if (selectedValue === "1 Étage") {
+      imageToChange.src = "Image/1_etage.jpg";
+    } else if (selectedValue === "2 Étages") {
+      imageToChange.src = "Image/2_etages.jpg";
+    }
+  });
+
+  structureSelect.addEventListener("change", function() {
+    const selectedValue = structureSelect.value;
+
+    if (selectedValue === "Carré") {
+      structureBuildingImage.src = "Image/Carré.jpg";
+    } else if (selectedValue === "Rectangulaire") {
+      structureBuildingImage.src = "Image/Rectangulaire.jpg";
+    } else if (selectedValue === "Maison en L") {
+      structureBuildingImage.src = "Image/Maison_en_L.jpg";
+    } else if (selectedValue === "Maison en U") {
+      structureBuildingImage.src = "Image/Maison_en_U.jpg";
+    }
+  });
+
+  structureSolSelect.addEventListener("change", function() {
+    const selectedValue = structureSolSelect.value;
+    const structureSolImage = document.getElementById("structureSolImage");
+
+    if (selectedValue === "Une cave enterrée") {
+      structureSolImage.src = "Image/Sous_sol.png";
+    } else if (selectedValue === "Une cave semi-enterrée") {
+      structureSolImage.src = "Image/Demi_sous_sol.png";
+    } else if (selectedValue === "Un vide sanitaire") {
+      structureSolImage.src = "Image/Vide_sanitaire.png";
+    } else if (selectedValue === "Terre plein") {
+      structureSolImage.src = "Image/Terre_plein.png";
+    }
+  });
+});
+
+
+  </script>
+
+  </form>
+
+</body>
+</html>
